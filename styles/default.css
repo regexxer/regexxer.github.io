@@ -1,0 +1,156 @@
+@charset "utf-8";
+/*
+ * Created by Daniel Elstner for regexxer.sourceforge.net.
+ */
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #E4E5E0;
+  color: #3D3535;
+  text-align: center;
+}
+
+body {
+  font: normal 80%/160% Verdana, sans-serif;
+  padding: 1.5em;
+}
+
+#box-all {
+  background-color: #FFFFFF;
+  color: #3D3535;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.5em;
+  width: 90%;
+  text-align: left;
+}
+
+code, kbd, samp, var {
+  font-family: "Andale Mono", monospace;
+}
+
+h1 {
+  font-size: 200%;
+  margin: 0.67em 0;
+}
+
+h2 {
+  font-size: 120%;
+  margin: 0.83em 0;
+}
+
+p {
+  margin: 1em;
+}
+
+a {
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul, ol {
+  margin: 1em 0 1em 1.17em;
+  padding: 0;
+}
+
+li {
+  margin-left: 1.17em;
+}
+
+.embedded-image {
+  float: right;
+}
+
+#content .embedded-image {
+  margin: 0 1em;
+}
+
+.embedded-image img {
+  border-style: none;
+  vertical-align: text-bottom;
+}
+
+/* While setting "vertical-align" to "text-bottom" is necessary for Gecko, it breaks IE. */
+* html .embedded-image img {
+/*\*/
+  vertical-align: baseline;
+/**/
+}
+
+.embedded-image a {
+  padding-bottom: 0.16em;
+}
+
+.embedded-image a:hover {
+  background-color: #0000EE;
+  color: #EDEEEA;
+}
+
+#navigation {
+  float: left;
+  background-color: #EDEEEA;
+  color: #3D3535;
+  font-size: 110%;
+  margin: 0 0 2.5em;
+  padding: 0.33em;
+  border: 0.07em solid #3D3535;
+  list-style: none;
+  width: auto;
+}
+
+#navigation li {
+  display: inline;
+  margin: 0;
+  padding: 1em;
+}
+
+#navigation a {
+  text-decoration: none;
+}
+
+#navigation a:hover {
+  text-decoration: underline;
+}
+
+#content {
+  clear: both;
+}
+
+table, tr, th, td {
+  border-collapse: collapse;
+}
+
+#dependencies-table th {
+  padding: 0 1em 0.33em;
+}
+
+#dependencies-table td {
+  padding: 0 1em;
+}
+
+#footer {
+  clear: both;
+  background-color: #D6D8CF;
+  color: #3D3535;
+  font-size: 80%;
+  margin: 0;
+  padding: 0.33em;
+  list-style: none;
+  text-align: center;
+}
+
+#footer li {
+  display: inline;
+  margin: 0;
+  padding: 0 0.5em 0 0.75em;
+  border-left: 0.09em solid #3D3535;
+}
+
+/* unfortunately IE doesn't support the + selector */
+#footer li.first {
+  border-left: none;
+}

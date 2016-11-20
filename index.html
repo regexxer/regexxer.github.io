@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>regexxer Search Tool</title>
+    <link rel="stylesheet" href="styles/default.css" type="text/css" media="all" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/vnd.microsoft.icon" />
+  </head>
+  <body>
+    <div id="box-all">
+      <ul id="navigation" title="Site Navigation">
+        <li><a href="index.html">Project page</a></li>
+        <li><a href="http://sourceforge.net/project/showfiles.php?group_id=64876">Download</a></li>
+        <li><a href="http://git.gnome.org/browse/regexxer">Repository</a></li>
+      </ul>
+      <div id="content">
+        <h1>regexxer</h1>
+        <div class="embedded-image">
+          <a href="images/regexxer-screenshot.png" title="Screen shot of regexxer"><img
+              alt="Screen shot of regexxer" width="192" height="160"
+              src="images/regexxer-screenshot-thumb.jpg" /></a>
+        </div>
+        <p>regexxer is a nifty <abbr title="Graphical User Interface">GUI</abbr>
+          search/replace tool featuring Perl-style regular expressions. If you need
+          project-wide substitution and you’re tired of hacking sed command lines
+          together, then you should definitely give it a try.</p>
+        <p>The <a href="/images/regexxer-screenshot.png">screen shot</a> should
+          give you an idea what this is about. If your very first thought was <em>“Hey,
+          I must have this!”</em>, then go for it and download the
+          <a href="http://sourceforge.net/project/showfiles.php?group_id=64876">latest tarball</a>.</p>
+        <h2>Help</h2>
+        <p>Detailed information on the usage and syntax of Perl regular
+          expressions is available from the Perl documentation. There is
+          a <a href="http://perldoc.perl.org/perlrequick.html" title="Perl regular expressions quick start">quick start page</a>,
+          a <a href="http://perldoc.perl.org/perlretut.html" title="Perl regular expressions tutorial">tutorial</a> and
+          the definite <a href="http://perldoc.perl.org/perlre.html" title="Perl regular expressions">manual</a>.</p>
+        <h2>What’s new?</h2>
+        <p>After more than two years of waiting, regexxer&#160;0.9 is finally there!
+          Here’s a quick summary of the changes in this release:</p>
+        <ul title="Changes in regexxer 0.9">
+          <li>Command line option support</li>
+          <li>Icon theme support</li>
+          <li>Now builds a working executable on systems with newer libglade</li>
+          <li>New GTK+ file chooser button</li>
+          <li>Replaced about dialog with stock GTK+ one</li>
+          <li>Completely revamped build system</li>
+          <li>Lots of new translations: bg ca dz es eu fi fr hu ne pa pl sl sr sr@Latn uk vi zh_CN zh_HK zh_TW</li>
+          <li>Other minor cleanups and fixes</li>
+        </ul>
+        <h2>regexxer in Debian and Ubuntu</h2>
+        <p>Thanks to <a href="http://burtonini.com/">Ross Burton</a> and
+          <a href="http://daniel.holba.ch/">Daniel Holbach</a>, Debian or Ubuntu users just have to
+          type <kbd>apt-get install regexxer</kbd> to immediately enjoy the wonders of regexxer.</p>
+        <h2>RPM packages</h2>
+        <p><a href="http://www.christoph-wickert.de/">Christoph Wickert</a> maintains
+          <abbr title="RedHat Package Manager">RPM</abbr> packages of regexxer in the
+          <a href="http://fedoraproject.org/wiki/Extras/">Fedora Extras</a> repository.</p>
+        <h2>Dependencies</h2>
+        <table id="dependencies-table">
+          <thead><tr>
+            <th scope="col">Package</th>
+            <th scope="col">Version</th>
+            <th scope="col">Site</th>
+          </tr></thead>
+          <tbody><tr>
+            <td>libsigc++ 2</td>
+            <td>2.0.0</td>
+            <td><a href="http://libsigc.sourceforge.net/">libsigc.sourceforge.net</a></td>
+          </tr><tr>
+            <td>gtkmm 2</td>
+            <td>2.6.0</td>
+            <td><a href="http://www.gtkmm.org/">www.gtkmm.org</a></td>
+          </tr><tr>
+            <td>libglademm</td>
+            <td>2.4.0</td>
+            <td><a href="http://www.gtkmm.org/">www.gtkmm.org</a></td>
+          </tr><tr>
+            <td>gconfmm</td>
+            <td>2.6.1</td>
+            <td><a href="http://www.gtkmm.org/">www.gtkmm.org</a></td>
+          </tr><tr>
+            <td>PCRE</td>
+            <td>5.0</td>
+            <td><a href="http://www.pcre.org/">www.pcre.org</a></td>
+          </tr></tbody>
+        </table>
+        <p>All version numbers are minimum requirements, the more recent the better.
+          I recommend to use the packages that come with your distribution if available.
+          Note that if you install binary packages, you’ll also need the corresponding
+          development package (usually <code><var>packagename</var>-dev</code>)
+          of each library.</p>
+      </div>
+      <ul id="footer">
+        <li class="first">© 2002-2007 <a href="http://danielkitta.org/">Daniel Elstner</a></li>
+      </ul>
+    </div>
+  </body>
+</html>
